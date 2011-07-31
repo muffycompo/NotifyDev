@@ -53,8 +53,8 @@ class fetchSMS
     public $rows;
    
     // IP SMS Gateway Authentication Details (UTIWARE)
-    private $username = 'aderogba';
-    private $password = 'aderogba123';
+    private $username = '';
+    private $password = '';
     /**
      * Construct for instantiating Database Connection
      */
