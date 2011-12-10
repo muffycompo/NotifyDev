@@ -72,12 +72,6 @@ class fetchSMS
     $this->dbPass = "";
     $this->dbName = "notifykannel";
 
-// ONLINE VERSION
-//    $this->dbHost = "216.227.216.46";
-//    $this->dbUser = "infoa8_notify";
-//    $this->dbPass = "notify";
-//    $this->dbName = "infoa8_notify";
-//    $this->dbName = "notifydev";
 
     $this->dbconn = mysql_connect($this->dbHost, $this->dbUser, $this->dbPass);
         if (!$this->dbconn)
